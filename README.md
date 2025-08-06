@@ -47,8 +47,8 @@ VisionX-CaptionSeg/
 │
 ├── README.md
 ├── requirements.txt
-├── data/                    # Dataset directory
-│   └── .gitkeep
+├── data                     # Dataset directory
+│   
 ├── notebooks/               # Jupyter notebooks
 │   ├── captioning_demo.ipynb
 │   └── segmentation_demo.ipynb
@@ -61,11 +61,8 @@ VisionX-CaptionSeg/
 │   │   ├── unet.py
 │   │   ├── train.py
 │   │   └── utils.py
-│   └── config.py
-├── tests/                   # Unit tests
-│   └── __init__.py
-└── outputs/                 # Saved results
-    └── .gitkeep
+│   
+└── outputs                  # Saved results
 
 ```
 
